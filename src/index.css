@@ -1,0 +1,72 @@
+/* Style code for site header */
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 50px;
+  background-color: #eff0f0;
+}
+
+.sticky-top{
+  margin-left: 20px;
+  top: 5px;
+}
+/* font style */
+body {
+  font-family: Arial, sans-serif;
+}
+/* card style code */
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quantity {
+  width: 50px;
+}
+
+.price h5 {
+  margin: 0;
+}
+
+.remove a {
+  text-decoration: none;
+  color: #ff6347;
+}
+
+.remove a:hover {
+  text-decoration: underline;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.summary p,
+.summary h5 {
+  margin: 0;
+}
+
+.text-right.text-muted {
+  font-size: 0.9rem;
+}
+
+.Rating{
+  margin-top: 20px;
+}
+
+.quantity-value{
+  width: 70px;
+}
+
+img{
+  height: 250px;
+}
